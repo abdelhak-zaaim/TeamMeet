@@ -1,0 +1,165 @@
+.top-30 {
+    top: 30%;
+}
+
+.logo {
+    min-width: 80px !important;
+    width: auto !important;
+    height: 80px !important;
+}
+
+.dataTables_wrapper > div:first-child {
+    display: none;
+}
+
+/* calendar Html4 file */
+.cal-no {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ebf3ff;
+    background-color: #ebf3ff;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+/* available calendar Html5 file */
+
+.available-days {
+    font-size: 14px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1400px) {
+        display: block;
+    }
+
+    .week-checkbox {
+        padding: 21px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+
+        @media (max-width: 1400px) {
+            border-right: 0 !important;
+            border-bottom: 1px solid #eff2f5 !important;
+            align-items: flex-start;
+            width: 100%;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        @media (max-width: 991px) {
+            padding: 17px 21.5px;
+        }
+
+        &:last-child {
+            border-right: unset !important;
+
+            @media (max-width: 1400px) {
+                border-bottom: 0 !important;
+            }
+        }
+    }
+}
+
+/* connect Calendar */
+.right-arrow {
+    right: 16px;
+}
+
+.text-secondary {
+    color: #888888 !important;
+}
+
+/* select date and time */
+
+#sidebarToggler {
+    padding: 5px !important;
+}
+
+.main-details {
+    @media (max-width: 767px) {
+        flex-direction: column !important;
+        height: auto !important;
+    }
+}
+
+/* progress bar */
+.progress {
+    border: 1px solid #e2e2e2 !important;
+}
+
+.menu-sub-dropdown.menu.show, .menu-sub-dropdown.show[data-popper-placement], .show.menu-dropdown > .menu-sub-dropdown {
+    position: static !important;
+    transform: unset !important;
+}
+
+.footer-menu-active {
+    color: #FD6A5E !important;
+}
+
+.stepper.stepper-pills {
+    .stepper-item.current {
+        &:last-child {
+            .stepper-icon {
+                transition: color .2s ease, background-color .2s ease !important;
+                background-color: #009ef7 !important;
+
+                .stepper-check {
+                    display: none !important;
+                }
+
+                .stepper-number {
+                    display: unset !important;
+                }
+            }
+        }
+    }
+}
+
+.faq-classic .card .card-header .collapse-btn.show:before {
+    content: "-";
+}
+
+
+.theme-menu-two .navbar {
+    @media (max-width: 1024px) {
+        padding-right: 30%;
+    }
+    @media (max-width: 992px) {
+        padding-right: 0;
+    }
+}
+
+.navbar-nav .nav-item .nav-link {
+    @media (max-width: 1024px) {
+        font-size: 16px !important;
+    }
+}
+
+.max-w-900 {
+    max-width: 900px;
+}
+
+.box-shadow-none {
+    box-shadow: unset !important;
+}
+
+.text-green {
+    color: #81b441 !important;
+}
+
+.overflow-x-hidden{
+    overflow-x:hidden !important;
+}
+.header-logo {
+    max-width: 100% !important;
+    width: auto !important;
+    height: 60px !important;
+    object-fit: cover;
+}

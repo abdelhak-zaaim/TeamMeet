@@ -1,0 +1,1 @@
+{{ $row->schedule_date }}

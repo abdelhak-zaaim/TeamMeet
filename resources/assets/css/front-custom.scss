@@ -1,0 +1,145 @@
+.service-icon {
+    .img-fluid {
+        max-width: 130px;
+    }
+}
+.header-logo {
+    max-width: 100% !important;
+    width: auto !important;
+    height: 60px !important;
+    object-fit: cover;
+}
+
+.reason-choose-section {
+    .reason-content {
+        .accordion {
+            max-width: 100% !important;
+            min-width: auto !important;
+        }
+    }
+}
+.custom-accordion-button {
+    font-size: 20px !important;
+}
+
+.listing-skeleton {
+    .card {
+        height: 750px;
+    }
+
+
+    .pulsate {
+        background: linear-gradient(90deg, #dddddd, #f0f0f0, #dddddd, #f0f0f0);
+        background-size: 400% 400%;
+        animation: Gradient 2s ease infinite;
+    }
+
+
+    .card-content {
+        clear: both;
+        box-sizing: border-box;
+        padding: 16px;
+        background: #fff;
+    }
+
+
+    .skeleton-search-box {
+        width: 300px;
+        height: 40px;
+        margin-left: 5px;
+    }
+
+
+    .date-box {
+        width: 220px;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+
+    .filter-box {
+        width: 50px;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+
+    .export-box {
+        width: 110px;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .event-box{
+        height: 210px;
+        margin-bottom: 28px;
+    }
+
+    .add-button-box {
+        width: 120px;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .column-box {
+        height: 45px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+
+
+    @-webkit-keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+    @-moz-keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+    @keyframes Gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+

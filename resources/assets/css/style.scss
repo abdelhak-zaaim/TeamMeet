@@ -1,0 +1,43 @@
+.time-slot {
+    display: inline-block;
+    padding: 9px 0px;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 1px;
+    height: 39px;
+    width: 134px;
+    box-shadow: 0 2px 4px -2px #777;
+
+    &:hover {
+        background-color: #00c6ff;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+
+.activeSlot {
+    background-color: #00c6ff;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bookedSlot {
+    pointer-events: none;
+    color: white;
+    background: #df4f4f;
+}
+
+.allPermissionCheck {
+    margin-left: auto !important;
+    margin-right: 80px !important;
+
+    @media screen and (max-width: 991px) {
+        margin-left: auto !important;
+        margin-right: 32px !important;
+    }
+    @media screen and (max-width: 767px) {
+        margin-left: auto !important;
+        margin-right: 14px !important;
+    }
+}
