@@ -34,7 +34,7 @@
         "intl-tel-input": "^17.0.13",
         "jquery-toast-plugin": "^1.3.2",
         "js-datepicker": "^5.18.0",
-        "moment": "^2.29.1",
+        "moment": "^2.30.1",
         "moment-timezone": "^0.5.35",
         "quill": "^1.3.7",
         "react-datepicker": "^4.2.1",
