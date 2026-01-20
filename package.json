@@ -27,7 +27,7 @@
         "tailwindcss": "^2.0.2"
     },
     "dependencies": {
-        "@hotwired/turbo": "^7.1.0",
+        "@hotwired/turbo": "^8.0.21",
         "@simonwep/pickr": "^1.8.2",
         "daterangepicker": "^3.1.0",
         "evo-calendar": "^1.1.3",
